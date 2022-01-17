@@ -1,0 +1,88 @@
+@import url("http://fonts.googleapis.com/css?family=Rubik");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em; /* 1em es en pixeles*/
+    color:#707070;
+    text-align: center;
+}
+
+h1 {
+    color:#3B3B3B;
+    font-size: 2em;
+}
+
+h3 {
+    color:#3B3B3B;
+    font-size: 1.375em;
+}
+
+/********************************/
+/* ESTILOS DEL HEADER           */
+/*******************************/
+
+#header {  /* solo se puede usar una ves en una etiqueta*/
+    background-color:#ECECEC ;
+}
+
+.link-menu { /*Se puede implementar para todas las etiquetas*/
+    color:#707070;
+    text-decoration: none;
+}
+
+a.hover {
+    color: #6984E6;
+}
+
+/********************************/
+/* ESTILOS DE PRINCIPAL     */
+/*******************************/
+#principal {
+    margin-top: 3.125em;
+    min-height: calc(100vn - 4.6875em);
+ }
+
+/********************************/
+/* ESTILOS DE PRODUCTO    */
+/*******************************/
+#producto {
+    background: -webkit-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: -moz-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    color: #FFFFFF;
+}
+
+.espacio-row {
+    padding: 2em;
+    padding-bottom: 2em;
+
+}
+
+
+/********************************/
+/* ESTILOS DE CONTATO    */
+/*******************************/
+#contacto {
+    margin-top: 3.125em;
+    min-height: calc(100vn - 4.6875em);
+}
+
+.espacio-row {
+    padding: 2em;
+    padding-bottom: 2em;
+
+}
+/********************************/
+/* ESTILOS DEL FOODER      */
+/*******************************/
+
+#footer {
+    background: #3B3B3B;
+    color:#FFFFFF;
+    height: 4.6875em;
+}
+
