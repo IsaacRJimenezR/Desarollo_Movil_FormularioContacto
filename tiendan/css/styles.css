@@ -11,6 +11,14 @@ body {
     text-align: center;
 }
 
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 3.125em;
+
+}
+
+
 h1 {
     color:#3B3B3B;
     font-size: 2em;
@@ -64,6 +72,10 @@ a.hover {
 
 
 /********************************/
+/* ESTILOS DE VIDEO   */
+/*******************************/
+
+/********************************/
 /* ESTILOS DE CONTATO    */
 /*******************************/
 #contacto {
@@ -85,4 +97,5 @@ a.hover {
     color:#FFFFFF;
     height: 4.6875em;
 }
+
 
